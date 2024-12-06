@@ -4,7 +4,7 @@ const choicesContainer = document.getElementById('choices');
 // Define game story and choices
 const gameData = {
   start: {
-    text: "this is a choice based game very your every choice takes you to different part and decides your fate , the destiny is the same but each path is different",
+    text: "this is a choice based game where your every choice takes you to different part and decides your fate , the destiny is the same but each path is different",
     choices: [
       { text: "Enter Game", next: "RealStart" },
     ],
