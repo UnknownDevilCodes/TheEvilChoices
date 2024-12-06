@@ -1,0 +1,120 @@
+/* General Reset */
+body {
+    margin: 0;
+    font-family: 'Georgia', serif;
+    /* background: ; */
+    color: #e8e6e3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 0 20px;
+    background-position: center;
+    background: linear-gradient( #2b2b2bc9, #1a1a1a9b) , url("https://imgs.search.brave.com/Wm8SnDU011Sj_ZQSMLnlHWwf2Vi6Mx04p4XLa_TYXtE/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pLnBp/bmltZy5jb20vb3Jp/Z2luYWxzLzRhLzRj/LzY0LzRhNGM2NGUz/MWZmZWExYjNmZGU3/ZTUyMWFiM2Q5OTNm/LmpwZw");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  /* Game Container */
+  #game-container {
+    background: rgba(25, 25, 25, 0.95);
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.8);
+    text-align: center;
+    max-width: 600px;
+    width: 100%;
+  }
+  
+  /* Game Title */
+  #game-title {
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: #ff6161;
+    text-shadow: 0 0 10px #ff6161, 0 0 20px #e94c4c;
+  }
+  
+  /* Story Text */
+  #story-text {
+    font-size: 1.1em;
+    margin-bottom: 20px;
+    line-height: 1.8;
+    color: #e8e6e3;
+  }
+  
+  /* Choice Buttons */
+  #choices {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  /* Main choice buttons styling */
+  #choices button {
+    padding: 12px 18px;
+    background: #3e3e3e;
+    border: 2px solid #ff6161;
+    color: #fff;
+    border-radius: 8px;
+    font-size: 1em;
+    cursor: pointer;
+    transition: all 0.3s;
+  }
+  
+  #choices button:hover {
+    background: #ff4747;
+    border-color: #ff4747;
+  }
+  
+  #choices button:focus {
+    outline: none;
+    box-shadow: 0 0 5px #ff6161;
+  }
+  
+  /* Container for Back and Restart buttons */
+  #control-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 10px; /* Space between the two buttons */
+    margin-top: 20px;
+  }
+  
+  /* Back and Restart button styles */
+  #control-buttons button {
+    padding: 10px 15px;
+    background: #3e3e3e;
+    border: 2px solid #ff6161;
+    color: #fff;
+    border-radius: 8px;
+    font-size: 1em;
+    cursor: pointer;
+    transition: all 0.3s;
+  }
+  
+  #control-buttons button:hover {
+    background: #ff4747;
+    border-color: #ff4747;
+  }
+  
+  #control-buttons button:focus {
+    outline: none;
+    box-shadow: 0 0 5px #ff6161;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    #game-title {
+      font-size: 1.8em;
+    }
+  
+    #story-text {
+      font-size: 1em;
+    }
+  
+    #choices button,
+    #control-buttons button {
+      font-size: 0.9em;
+      padding: 10px 12px;
+    }
+  }
+  
